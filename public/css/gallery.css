@@ -23,6 +23,7 @@
 
 .gallery-image-full {
 	width: 100%;
+	text-align: center;
 }
 
 .gallery-image {
@@ -57,8 +58,11 @@
 	margin-bottom: 20px;		
 }
 
-
+ul.gallery-image-actions {
+	
+}
 ul.gallery-image-actions li {
+float: right;
   list-style: none;
   display: inline;
   margin: 0px;
