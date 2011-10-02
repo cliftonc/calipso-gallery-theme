@@ -14,9 +14,10 @@ exports = module.exports = function(req, options, callback) {
   calipso.lib.step(
     function getContent() {
       options.getContent(req, "footer-content", this.parallel());      
+      options.getBlock('scripts.ga',this.parallel());
     },
-    function done(err, footer) {
-      callback(err,{footer: footer});
+    function done(err, footer, ga) {
+      callback(err,{footer: footer, ga: ga});
     }
   );
 
