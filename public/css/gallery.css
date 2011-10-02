@@ -1,0 +1,80 @@
+/* -------------------------------------------------- */
+		
+		ul.gallery-images { margin: 0 0 18px -30px; float: left; }
+		ul.gallery-images li { background: #fff; display: inline; float: left; margin: 0 0 27px 30px; padding: 10px 10px 15px; text-align: center; font-family: sans-serif; text-decoration: none; color: #333; font-size: 14px; -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); -webkit-transform: rotate(-2deg); -webkit-transition: -webkit-transform .15s linear; -moz-transform: rotate(-2deg); text-align: center;}
+		ul.gallery-images img { display: block;  margin-bottom: 12px; }
+/**		ul.gallery-images a:after { content: attr(title); } **/
+		
+		ul.gallery-images li:nth-child(even) { -webkit-transform: rotate(2deg);  -moz-transform: rotate(2deg); }
+		ul.gallery-images li:nth-child(3n) { -webkit-transform: none; position: relative; -moz-transform: none; }
+		ul.gallery-images li:nth-child(5n) { -webkit-transform: rotate(5deg); position: relative; -moz-transform: rotate(5deg); }
+		ul.gallery-images li div {
+			max-width: 220px;
+			max-height: 70px;
+		}
+		ul.gallery-images li.messy span { margin-top: -375px; margin-left: 160px; -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); }
+		
+		ul.gallery-images li:hover { -webkit-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); position: relative; z-index: 5; }	
+			
+		.editable input {
+			width: 100%;
+			font-size: 0.8em;
+		}
+
+.gallery-image-full {
+	width: 100%;
+}
+
+.gallery-image {
+	max-width: 100%;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25); 
+}
+
+.gallery-description {
+	padding: 20px;
+	background: #dfdfdf;
+	margin-bottom: 20px;		
+}
+
+.gallery-image-header h2 {
+	float: left;	
+	display: inline;
+}
+.gallery-image-actions {
+	float: right;
+	width: 30%;
+}
+.gallery-image-highlight {
+	width: 140px;
+	height: 140px;
+	float: left;
+	background-color: blue;
+}
+
+.gallery-image-description {
+	padding: 20px;
+	background: #dfdfdf;
+	margin-bottom: 20px;		
+}
+
+
+ul.gallery-image-actions li {
+  list-style: none;
+  display: inline;
+  margin: 0px;
+  font-weight: bold; 
+  font-size: 1.1em;
+  text-shadow: 0 1px rgba(155, 155, 155, .5);
+}
+ul.gallery-image-actions li a {
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+ul.gallery-image-actions li a:hover {
+  background:#2a2c2a url("/images/stripe_darker.png") repeat;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;  
+  color: #0186ba; 
+}
