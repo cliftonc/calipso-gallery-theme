@@ -140,15 +140,9 @@ ul.gallery-image-actions li a:hover {
 	color: #efefef;
 }
 
-#dropbox .uploaded {
-	background: url('/images/done.png') no-repeat center center rgba(255,255,255,0.5);
+#dropbox .done .imageName {
+	color: green !important;
 }
-
-#dropbox .preview.done .uploaded{
-	display: block;
-}
-
-
 
 /*-------------------------
 	Progress Bars
