@@ -212,11 +212,11 @@ ul.main-nav li a:hover {
 .log-in-or-register {float:right;}
 .link-divider { width: 0; height: 1.2em; overflow: hidden; display: inline-block; border-right: 1px solid #000; margin: 0 5px; }
 
-#user-login {text-align: right; padding-right: 15px; margin-bottom: 10px;}
+#user-login {text-align: right; padding-right: 15px; margin-bottom: 10px; width: 200px;}
 #user-login a, #user-login a:visited { }
 #user-login-form label {padding:0;text-align:left;width:auto;}
 #user-login-form .form-field {margin:0 0 2px;}
-#user-login-form {position: absolute;right:0;top:30px;display:none;border: 1px solid #ccc;box-shadow:0 2px 4px #333;}
+#user-login-form {position: absolute;right:90;top:30px;display:none;border: 1px solid #ccc;box-shadow:0 2px 4px #333;}
 #user-login-form form {padding:20px;background:#eee;margin-bottom: 0px;}
 #user-login-form h2 {display: none;}
 #user-login-form input {width:180px;}
